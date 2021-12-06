@@ -3074,7 +3074,7 @@ class OssClient
             if (OssUtil::isGb2312($options[self::OSS_OBJECT])) {
                 $options[self::OSS_OBJECT] = iconv('GB2312', "UTF-8//IGNORE", $options[self::OSS_OBJECT]);
             } elseif (OssUtil::checkChar($options[self::OSS_OBJECT], true)) {
-                $options[self::OSS_OBJECT] = iconv('GBK', "UTF-8//IGNORE", $options[self::OSS_OBJECT]);
+                $options[self::OSS_OBJECT] = iconv('GBK', "UTF-8", $options[self::OSS_OBJECT]);
             }
         } catch (\Exception $e) {
             try {
