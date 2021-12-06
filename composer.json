@@ -1,13 +1,13 @@
 {
-    "name": "aliyuncs/oss-sdk-php",
+    "name": "drcayman/oss-sdk-php",
     "description": "Aliyun OSS SDK for PHP",
-    "homepage": "http://www.aliyun.com/product/oss/",
+    "homepage": "http://blog.szwyll.com",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Aliyuncs",
-            "homepage": "http://www.aliyun.com"
+            "name": "drcayman",
+            "homepage": "http://blog.szwyll.com"
         }
     ],
     "require": {
